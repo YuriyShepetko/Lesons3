@@ -1,0 +1,50 @@
+@import "null.css"
+*{
+	color: black;
+}
+h2{
+	color: deeppink;
+}
+h3{
+	color: deepskyblue;
+}
+p{
+	color: darkgray;
+}
+div.types-milk{
+	color: darksalmon;
+}
+.types-espresso p{	
+	color: gold;
+}
+h2#section2{
+	color: green;
+}
+.menu{
+	color: crimson;
+}
+#section1{
+	color: darkblue;
+}
+.mark.wichtig{
+	color: blue;
+}
+p span.mark{	
+	color: chartreuse;
+}
+.option-coffe,
+.option-roasting{
+color: indigo;
+}
+[href*="section"]{
+	color: olive;
+}
+.option-roasting>p{
+	color: orangered;
+}
+.text+p{
+	color: red;
+}
+.position ~ li{
+	color: brown;
+}
